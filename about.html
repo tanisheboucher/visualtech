@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualtech Solutions Limited </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/818d725aec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"><img src="images/vtlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>  
+    </section>
+
+<!--------- START BODY ----------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>WHO WE ARE AND HOW WE SERVE YOU</h1>
+            <p>Visual-Tech Solutions Limited commenced operations in 2008 with a vision to bring to businesses, even the most micro of entrepreneurs, technologies that have shrunk the world into a small village where business can be transacted across borders in an instant. Pursuing its vision with passion has enabled our operations to grow significantly over the years.
+                Visual-Tech Solutions now boasts a wide-based clientele directly attributed to the diverse skills and reputation of the Company’s highly trained and widely experienced Managing Director and Supporting Staff.
+                Visual-Tech Solutions rents (along with competent operators-optional), sells and installs audio/visual (A/V) systems to small, medium and large commercial operations, educational institutions, churches, entertainment promoters and individuals.
+                We also provide high quality video recording with editing, web streaming and video conferencing services.
+            </p>
+        </div>
+        <div class="about-col">
+            <img src="images/Productionevent.png">
+        </div>
+    </div>
+    <h1>MISSION STATEMENT</h1>
+            <p>To provide for our clients high quality audio/visual solutions at an affordable rate enabling them to “Express information and creativity through vision and sound.”
+                We consider it our main purpose to provide to businesses, social organisations and individuals the most appropriate technology to enable them to be effective participants in the global village.
+                In order to fulfil this purpose, every effort is made within our organization to keep up to date with changes in equipment and transmission and receiving techniques and in turn, to provide these services to our clients at affordable prices.
+                Our mission includes an open door policy for our clients to access competent personnel to solve technical issues as they arise.
+            </p>
+</section>
+
+
+
+
+
+
+
+<!--------- END BODY ------------->
+<!--------- START FOOTER ----------->
+<section class="footer">
+    <div class="continer">
+        <div class="rowTwo">
+            
+            <div class="footer-col">
+                <a href="index.html"><img src="images/vtlogo.png"></a>
+            </div>
+            <div class="footer-col">
+                <h4>Our Office</h4>
+                <p class="details">
+                    Unit 9,<br >4-6 Norman Road,<br >Kingston 2, Jamaica<br >Tel: (876) 928-3197<br >email: sales@visualtechjm.com
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Link</h4>
+                <ul>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footerCol">
+        <p>
+            Copyright 2018. All Rights Reserved. Powered by <a href="imdex.html">Visual-Tech Solurtions Ltd.</a> 
+        </p>
+    </div>
+</section>
+
+<!--------- END FOOTER ----------->
+
+<!------Javascript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

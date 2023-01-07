@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualtech Solutions Limited </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/818d725aec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"><img src="images/vtlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>  
+    </section>
+<!--------- END header ----------->
+<!--------- START Contact ----------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15180.519974177469!2d-76.7806959!3d17.9726881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c35999a878a8570!2sVisual%20Tech%20Solutions!5e0!3m2!1sen!2sjm!4v1672971452154!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contactUs">
+   
+    <div class="row">
+        <div class="contactUs-col">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>
+                    <h5>Unit 9, 4-6 Norman Road</h5>
+                    <p>Kingston 2, Jamaica</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5> (876) 928-3197</h5>
+                    <p>Monday to Friday, 9:00AM to 5:00PM</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                    <h5>sales@visualtechjm.com</h5>
+                    <p>Connect with us</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contactUs-col">
+            
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your Email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+<!--------- START FOOTER ----------->
+<section class="footer">
+    <div class="continer">
+        <div class="rowTwo">
+            
+            <div class="footer-col">
+                <a href="index.html"><img src="images/vtlogo.png"></a>
+            </div>
+            <div class="footer-col">
+                <h4>Our Office</h4>
+                <p class="details">
+                    Unit 9,<br >4-6 Norman Road,<br >Kingston 2, Jamaica<br >Tel: (876) 928-3197<br >email: sales@visualtechjm.com
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Link</h4>
+                <ul>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footerCol">
+        <p>
+            Copyright 2018. All Rights Reserved. Powered by <a href="imdex.html">Visual-Tech Solurtions Ltd.</a> 
+        </p>
+    </div>
+</section>
+
+<!--------- END FOOTER ----------->
+
+<!------Javascript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
